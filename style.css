@@ -1,0 +1,102 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: lightsteelblue;
+}
+h1 {
+  font-size: 36px;
+}
+
+.romano{
+  list-style-type: upper-roman;
+}
+
+#odonto{
+  float: right;
+}
+
+#marketing{
+  float: right;
+}
+
+#tecnologia{
+  float: right;
+}
+
+#primeiradiv{
+  height: 250px;
+}
+
+#segundadiv{
+  height: 200px;
+}
+
+#terceiradiv{
+  height: 230px;
+}
+
+#justCenter{
+  display: flex;
+  justify-content: center;
+}
+
+#flex{
+  background-color: lightgray;
+  width: 430px;
+  margin: 10px;
+  padding: 4px;
+  list-style-type: none;
+  display: flex;
+  border: solid 1px black;
+  border-radius: 6px;
+  justify-content: space-evenly;
+}
+
+.licomborda{
+  padding: 3px;
+  border: solid 1px lightcyan;
+}
+
+a:hover{
+  color: orange;
+  background-color: white;
+}
+
+a:visited{
+  color: purple;
+}
+
+#fixed{
+  padding: 0;
+  margin: 0;
+  border: solid 1px forestgreen;
+  width: 290px;
+  height: 40px;
+  position: fixed;
+  bottom:0;
+  right: 0;
+  background-color: lightcoral;
+  color: white;
+}
+
+h2 {
+  color: darkred;
+  font-style: italic;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+#ultimaSection{
+  height: 350px;
+}
+
+.justCenter2{
+  display: flex;
+  justify-content: center;
+}
